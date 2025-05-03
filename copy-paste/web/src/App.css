@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+/* Additional custom styles */
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 800px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
