@@ -275,8 +275,6 @@ func Hub() {
 }
 
 func main() {
-	// Initialize random seed
-	rand.Seed(time.Now().UnixNano())
 
 	// Start the hub in a goroutine
 	go Hub()
